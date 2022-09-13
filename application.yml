@@ -6,12 +6,16 @@ eureka:
 
 ---
 spring:
-  profiles: bianco
   application:
-    name: bianco
+    name: esercito-bianco
+  config:
+    activate:
+      on-profile: bianco
   
 ---
 spring:
-  profiles: nero
   application:
-    name: nero
+    name: esercito-nero
+  config:
+    activate:
+      on-profile: nero
