@@ -1,10 +1,27 @@
 ---
-forzaUomo: 6
-abilitaUomo: 5
-forzaElfo: 2
-abilitaElfo: 9
-forzaNano: 9
-abilitaNano: 2
-spada: 3
-arco: 2
-ascia: 1
+spring:
+  profiles: bianco
+esercito:
+  forzaUomo: 6
+  abilitaUomo: 5
+  forzaElfo: 2
+  abilitaElfo: 9
+  forzaNano: 9
+  abilitaNano: 2
+  spada: 3
+  arco: 2
+  ascia: 1
+  
+---
+spring:
+  profiles: nero
+esercito:
+  forzaUomo: 6
+  abilitaUomo: 5
+  forzaElfo: 2
+  abilitaElfo: 9
+  forzaNano: 9
+  abilitaNano: 2
+  spada: 3
+  arco: 2
+  ascia: 1
